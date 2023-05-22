@@ -35,3 +35,24 @@ It is used to manage and provision infrastructure resources such as physical mac
 - Used to delete the terraform-managed infrastructure
 - This will ask for confirmation if --auto-approve is not used.
 
+# Terraform Settings
+
+### Terraform Block.
+
+- This is a special block used to configure some behaviours, 
+ 
+      Required terraform Version
+      List required Providers
+      Terraform backend
+
+### Provider Block.
+
+- Terraform relies on providers oblock to interact with remote systems (public cloud).
+
+### Resource Block
+
+- Each resource Block describes one or more infrastructure objects.
+
+ Resource syntax (How to declare resource)
+ Resource Behaviour (How terraform handles resource declaration)
+ 
