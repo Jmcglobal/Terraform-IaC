@@ -75,3 +75,22 @@ It is used to manage and provision infrastructure resources such as physical mac
  Resource syntax (How to declare resource)
  Resource Behaviour (How terraform handles resource declaration)
  
+## Terraform Varibles and Outputs
+
+### Input Varibales
+
+- Input variables serve as a parameter for a terraform module, allowing aspects of the module to be customized without altering the modules own        source code.
+- In input variables, you can implement complex type constructors like list & map in input variables.
+
+### Output Values
+
+- Output values are like the return values of a terraform module and have several uses.
+- A root module can use outputs to print certain values in the CLI output after running terraform apply.
+- With aoutput values, you can print out resource information like IP, DNS names, and other information as well.
+
+### Ubuuntu Linux terminal terraform installation
+
+                      wget https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip
+                      unzip terraform_0.12.24_linux_amd64.zip
+                      sudo mv terraform_0.12.24_linux_amd64 /usr/local/bin
+                      rm terraform_0.12.24_linux_amd64.zip
