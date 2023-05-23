@@ -39,6 +39,15 @@ It is used to manage and provision infrastructure resources such as physical mac
 
 ### Terraform Block.
 
+           terraform {
+               required_providers {
+                   aws = {
+                       source = "hashicorp/aws"
+                   }
+               }
+           }
+
+
 - This is a special block used to configure some behaviours, 
  
       Required terraform Version
@@ -47,9 +56,19 @@ It is used to manage and provision infrastructure resources such as physical mac
 
 ### Provider Block.
 
+        provider "aws" {
+          profile = "default"
+          region = "us-east-2"
+        }
+
 - Terraform relies on providers oblock to interact with remote systems (public cloud).
 
 ### Resource Block
+
+       resource "aws_instance" "web" {
+         ami           = "ami-a1b2c3d4"
+         instance_type = "t2.micro"
+       }
 
 - Each resource Block describes one or more infrastructure objects.
 
