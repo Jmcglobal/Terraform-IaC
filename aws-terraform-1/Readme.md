@@ -1,6 +1,6 @@
+## Terraform simple deployment
 
-
-# Terraform as a code.
+![Terra-Project-1-updated](https://github.com/Jmcglobal/Terraform-IaC/assets/101070055/c014369e-3274-4478-8d07-a89ba6ec1e2a)
 
 ### Resources to be provisioned
 
@@ -26,8 +26,7 @@
 
 ### Overview
 
-Terra-Project-1-1.png
-
+![Terra-Project-1-1](https://github.com/Jmcglobal/Terraform-IaC/assets/101070055/71a2647b-467d-4ab9-8b09-ebef8b8e349d)
 
 ### To Deploy ..
 
@@ -39,30 +38,29 @@ Terra-Project-1-1.png
 
 - optionally change region of your choice 
 
-- terraform apply --auto-approve
+             terraform apply --auto-approve
 
 ### Confirm the jumb host, ssh to private subnet ec2 through instance on public subnet
 
 - Start the ssh-agent
 
-    $ eval "$(ssh-agent -s)"
+             $ eval "$(ssh-agent -s)"
 
 - Add your private key to the ssh-agent
 
-    $ ssh-add <path-to-private-key> or <keyname e.g key.pem>
+            $ ssh-add <path-to-private-key> or <keyname e.g key.pem>
 
 - Connect to the EC2 instance on public subnet
 
-    $ ssh -A <username>@<public-ip-or-hostname>
+              $ ssh -A <username>@<public-ip-or-hostname>
 
 - Now from inside Public Ec2 instance, access the private instance
 
-    ssh <username>@<instance-private-IP>
+                ssh <username>@<instance-private-IP>
 
 ### To Destroy
 
-- terraform destroy --auto-approve
-
+             terraform destroy --auto-approve
 
 NOTE: If this warning pops up while adding key 
         "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -73,4 +71,4 @@ It is required that your private key files are NOT accessible by others.
 This private key will be ignored."
 
 Use this command to change it
-- chmod 400 <key>
+-          chmod 400 <key-name>
