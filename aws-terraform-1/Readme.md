@@ -1,5 +1,9 @@
 ## Terraform simple deployment
 
+- Simple aws resource automation without complexity of using variables, list, Maps, Looping etc
+
+- Terraform-IaC/aws-terraform-2 (aws resource deployment using variables, List, Maps, looping and Toset)
+
 ![Terra-Project-1-updated](https://github.com/Jmcglobal/Terraform-IaC/assets/101070055/c014369e-3274-4478-8d07-a89ba6ec1e2a)
 
 ### Resources to be provisioned
