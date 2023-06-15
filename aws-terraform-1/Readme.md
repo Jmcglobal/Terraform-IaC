@@ -4,8 +4,6 @@
 
 - Terraform-IaC/aws-terraform-2 (aws resource deployment using variables, List, Maps, looping and Toset)
 
-![Terra-Project-1-updated](https://github.com/Jmcglobal/Terraform-IaC/assets/101070055/c014369e-3274-4478-8d07-a89ba6ec1e2a)
-
 ### Resources to be provisioned
 
 #### Virtual Private cloud (VPC)
@@ -30,7 +28,7 @@
 
 ### Overview
 
-![Terra-Project-1-1](https://github.com/Jmcglobal/Terraform-IaC/assets/101070055/71a2647b-467d-4ab9-8b09-ebef8b8e349d)
+![Terra-Project-1-updated](https://github.com/Jmcglobal/Terraform-IaC/assets/101070055/5d209e99-43c1-4e34-9edd-40d4cb3ff250)
 
 ### To Deploy ..
 
@@ -76,3 +74,7 @@ This private key will be ignored."
 
 Use this command to change it
 -          chmod 400 <key-name>
+
+ ## ANOTHER EXAMPLE OF ARCHITECTURE TO AUTOMATE
+  
+  ![Terraproject--1](https://github.com/Jmcglobal/Terraform-IaC/assets/101070055/dd1de618-a31f-49c5-8584-7f2a2301d481)
