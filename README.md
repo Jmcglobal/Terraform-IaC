@@ -1,5 +1,4 @@
 # TERRAFORM - IAC (Infrastrcture as a Code)
-![terra-icon](https://github.com/Jmcglobal/Terraform-IaC/assets/101070055/f988df9e-d213-4ec9-a3e3-6424eb7f107f)           ![terraform-view](https://github.com/Jmcglobal/Terraform-IaC/assets/101070055/904245f9-4aab-43ab-b696-2afc4d47e279)
 
 ### WHAT IS TERRAFORM
 
@@ -8,7 +7,8 @@ It is used to manage and provision infrastructure resources such as physical mac
 
 ### TERRAFORM WORKFLOW
 
-![terraform-disgram](https://github.com/Jmcglobal/Terraform-IaC/assets/101070055/e6b93c8b-7b28-4f2c-a6c9-128cb9199fb9)
+![terraform-state](https://github.com/Jmcglobal/Terraform-IaC/assets/101070055/39c8db8d-fafe-4bb5-a1a7-3e218effe65b)
+
 
 #### TERRAFORM INIT
 
